@@ -1105,6 +1105,39 @@
             "Weakness": "None",
             "Type": "Robotic",
             "Attacks": "Shadowbeam: 1d6+1 dark damage."
+        },
+        {
+            "Name": "Aquabug",
+            "Description": "An insect that lives underwater",
+            "HP": "15",
+            "Armor": "3",
+            "Immunity": "Air, Water",
+            "Locations": "Underwater",
+            "Weakness": "Dark",
+            "Type": "Insect",
+            "Attacks": "Sting: 1d8+1 damage.  Causes Poison."
+        },
+        {
+            "Name": "Flameknight",
+            "Description": "A person in an armor that's on fire",
+            "HP": "4",
+            "Armor": "4",
+            "Immunity": "Fire",
+            "Locations": "City, Plains, Forest",
+            "Weakness": "Ice, Water",
+            "Type": "Human",
+            "Attacks": "Fire Punch: 1d8 Fire damage."
+        },
+        {
+            "Name": "White Asp",
+            "Description": "A snake that lives in the snow",
+            "HP": "7",
+            "Armor": "0",
+            "Immunity": "Holy, Ice",
+            "Locations": "Tundra",
+            "Weakness": "Fire",
+            "Type": "Reptilian",
+            "Attacks": "Frost Bite: 1d4 Ice damage.  Causes Scared."
         }
     ],
     "Sample_Custom_Moves": [
@@ -1188,7 +1221,7 @@
         },
         {
             "Elementals": "Air",
-            "Immunity": "8",
+            "Immunity": "9",
             "Weaknesses": "9",
             "Status Effects": "Blind",
             "undefined": "4",
@@ -1196,18 +1229,18 @@
         },
         {
             "Elementals": "Fire",
-            "Immunity": "9",
-            "Weaknesses": "9",
+            "Immunity": "10",
+            "Weaknesses": "10",
             "Status Effects": "Burn",
             "undefined": "1",
             "Attack Element": "Air"
         },
         {
             "Elementals": "Water",
-            "Immunity": "10",
-            "Weaknesses": "8",
+            "Immunity": "11",
+            "Weaknesses": "9",
             "Status Effects": "Mania",
-            "undefined": "11",
+            "undefined": "13",
             "Attack Element": "Fire"
         },
         {
@@ -1220,26 +1253,26 @@
         },
         {
             "Elementals": "Ice",
-            "Immunity": "9",
-            "Weaknesses": "8",
+            "Immunity": "10",
+            "Weaknesses": "9",
             "Status Effects": "Poison",
             "undefined": "10",
             "Attack Element": "Lightning"
         },
         {
             "Elementals": "Holy",
-            "Immunity": "8",
+            "Immunity": "9",
             "Weaknesses": "9",
             "Status Effects": "Scared",
-            "undefined": "9",
+            "undefined": "10",
             "Attack Element": "Ice"
         },
         {
             "Elementals": "Dark",
             "Immunity": "9",
-            "Weaknesses": "8",
+            "Weaknesses": "9",
             "Attack Element": "Holy",
-            "undefined": ""
+            "undefined": "Bleed,Burn,Mania,Paralysis,Scared,"
         },
         {
             "Attack Element": "Dark",
@@ -1259,7 +1292,7 @@
             "Elementals": "Sky",
             "Immunity": "12",
             "Status Effects": "Human",
-            "undefined": "9"
+            "undefined": "10"
         },
         {
             "Elementals": "Mountain",
@@ -1275,25 +1308,25 @@
         },
         {
             "Elementals": "Forest",
-            "Immunity": "14",
+            "Immunity": "15",
             "Status Effects": "Reptilian",
             "undefined": "8"
         },
         {
             "Elementals": "Underwater",
-            "Immunity": "11",
+            "Immunity": "12",
             "Status Effects": "Insect",
-            "undefined": "6"
+            "undefined": "7"
         },
         {
             "Elementals": "Shore",
             "Immunity": "12",
             "Status Effects": "Mob",
-            "undefined": "11"
+            "undefined": "12"
         },
         {
             "Elementals": "Plains",
-            "Immunity": "12",
+            "Immunity": "13",
             "Status Effects": "Undead",
             "undefined": "9"
         },
@@ -1304,11 +1337,11 @@
         },
         {
             "Elementals": "Tundra",
-            "Immunity": "11"
+            "Immunity": "12"
         },
         {
             "Elementals": "City",
-            "Immunity": "12"
+            "Immunity": "13"
         }
     ]
 }
