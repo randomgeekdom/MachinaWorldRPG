@@ -1138,6 +1138,17 @@
             "Weakness": "Fire",
             "Type": "Reptilian",
             "Attacks": "Frost Bite: 1d4 Ice damage.  Causes Scared."
+        },
+        {
+            "Name": "Clay Pidgeon",
+            "Description": "A pidgeon made of clay.",
+            "HP": "8",
+            "Armor": "2",
+            "Immunity": "Earth, Air",
+            "Locations": "Sky, Plains",
+            "Weakness": "Water",
+            "Type": "Animal",
+            "Attacks": "Birdstrike: 1d6 damage.  Causes Scared."
         }
     ],
     "Sample_Custom_Moves": [
@@ -1213,7 +1224,7 @@
     "Enemy Data": [
         {
             "Elementals": "Earth",
-            "Immunity": "8",
+            "Immunity": "9",
             "Weaknesses": "8",
             "Status Effects": "Bleed",
             "undefined": "3",
@@ -1221,7 +1232,7 @@
         },
         {
             "Elementals": "Air",
-            "Immunity": "9",
+            "Immunity": "10",
             "Weaknesses": "9",
             "Status Effects": "Blind",
             "undefined": "4",
@@ -1238,7 +1249,7 @@
         {
             "Elementals": "Water",
             "Immunity": "11",
-            "Weaknesses": "9",
+            "Weaknesses": "10",
             "Status Effects": "Mania",
             "undefined": "13",
             "Attack Element": "Fire"
@@ -1272,7 +1283,7 @@
             "Immunity": "9",
             "Weaknesses": "9",
             "Attack Element": "Holy",
-            "undefined": "Bleed,Burn,Mania,Paralysis,Scared,"
+            "undefined": "Bleed,Burn,Mania,Paralysis,"
         },
         {
             "Attack Element": "Dark",
@@ -1286,11 +1297,11 @@
             "Elementals": "Cave",
             "Immunity": "18",
             "Status Effects": "Animal",
-            "undefined": "20"
+            "undefined": "21"
         },
         {
             "Elementals": "Sky",
-            "Immunity": "12",
+            "Immunity": "13",
             "Status Effects": "Human",
             "undefined": "10"
         },
@@ -1304,7 +1315,7 @@
             "Elementals": "Swamp",
             "Immunity": "14",
             "Status Effects": "Robotic",
-            "undefined": "8"
+            "undefined": "9"
         },
         {
             "Elementals": "Forest",
@@ -1326,7 +1337,7 @@
         },
         {
             "Elementals": "Plains",
-            "Immunity": "13",
+            "Immunity": "14",
             "Status Effects": "Undead",
             "undefined": "9"
         },
