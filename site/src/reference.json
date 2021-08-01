@@ -1149,6 +1149,28 @@
             "Weakness": "Water",
             "Type": "Animal",
             "Attacks": "Birdstrike: 1d6 damage.  Causes Scared."
+        },
+        {
+            "Name": "Sand Shredder",
+            "Description": "A robot that guards the sands with its sawblades.",
+            "HP": "14",
+            "Armor": "1",
+            "Immunity": "Lightning",
+            "Locations": "Shore, Desert",
+            "Weakness": "Earth",
+            "Type": "Robotic",
+            "Attacks": "Sawblades: 1d8+1 damage.  Causes Bleed."
+        },
+        {
+            "Name": "Armored Jellyfish",
+            "Description": "A jellyfish with hard armor",
+            "HP": "14",
+            "Armor": "7",
+            "Immunity": "Holy",
+            "Locations": "Underwater",
+            "Weakness": "Air",
+            "Type": "Animal",
+            "Attacks": "Sting: 1d4 damage.  Causes Burn."
         }
     ],
     "Sample_Custom_Moves": [
@@ -1225,7 +1247,7 @@
         {
             "Elementals": "Earth",
             "Immunity": "9",
-            "Weaknesses": "8",
+            "Weaknesses": "9",
             "Status Effects": "Bleed",
             "undefined": "3",
             "Attack Element": "Piercing"
@@ -1233,7 +1255,7 @@
         {
             "Elementals": "Air",
             "Immunity": "10",
-            "Weaknesses": "9",
+            "Weaknesses": "10",
             "Status Effects": "Blind",
             "undefined": "4",
             "Attack Element": "Earth"
@@ -1256,7 +1278,7 @@
         },
         {
             "Elementals": "Lightning",
-            "Immunity": "9",
+            "Immunity": "10",
             "Weaknesses": "9",
             "Status Effects": "Paralysis",
             "undefined": "6",
@@ -1272,7 +1294,7 @@
         },
         {
             "Elementals": "Holy",
-            "Immunity": "9",
+            "Immunity": "10",
             "Weaknesses": "9",
             "Status Effects": "Scared",
             "undefined": "10",
@@ -1283,7 +1305,7 @@
             "Immunity": "9",
             "Weaknesses": "9",
             "Attack Element": "Holy",
-            "undefined": "Bleed,Burn,Mania,Paralysis,"
+            "undefined": "Mania,Paralysis,Scared,"
         },
         {
             "Attack Element": "Dark",
@@ -1297,7 +1319,7 @@
             "Elementals": "Cave",
             "Immunity": "18",
             "Status Effects": "Animal",
-            "undefined": "21"
+            "undefined": "22"
         },
         {
             "Elementals": "Sky",
@@ -1321,17 +1343,17 @@
             "Elementals": "Forest",
             "Immunity": "15",
             "Status Effects": "Reptilian",
-            "undefined": "8"
+            "undefined": "9"
         },
         {
             "Elementals": "Underwater",
-            "Immunity": "12",
+            "Immunity": "13",
             "Status Effects": "Insect",
             "undefined": "7"
         },
         {
             "Elementals": "Shore",
-            "Immunity": "12",
+            "Immunity": "13",
             "Status Effects": "Mob",
             "undefined": "12"
         },
@@ -1343,7 +1365,7 @@
         },
         {
             "Elementals": "Desert",
-            "Immunity": "13",
+            "Immunity": "14",
             "undefined": "1"
         },
         {
