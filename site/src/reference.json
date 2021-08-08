@@ -283,6 +283,17 @@
     ],
     "Bestiary": [
         {
+            "Name": "Aquabug",
+            "Description": "An insect that lives underwater",
+            "HP": "15",
+            "Armor": "3",
+            "Immunity": "Air, Water",
+            "Locations": "Underwater",
+            "Weakness": "Dark",
+            "Type": "Insect",
+            "Attacks": "Sting: 1d8+1 damage.  Causes Poison."
+        },
+        {
             "Name": "Arctic Sniper",
             "Description": "A white-coated person with a long-range rifle",
             "HP": "4",
@@ -292,6 +303,17 @@
             "Weakness": "None",
             "Type": "Human",
             "Attacks": "Shot: 1d10-1 Ice damage."
+        },
+        {
+            "Name": "Armored Jellyfish",
+            "Description": "A jellyfish with hard armor",
+            "HP": "14",
+            "Armor": "7",
+            "Immunity": "Holy",
+            "Locations": "Underwater",
+            "Weakness": "Air",
+            "Type": "Animal",
+            "Attacks": "Sting: 1d4 damage.  Causes Burn."
         },
         {
             "Name": "Armored Rhino",
@@ -404,6 +426,17 @@
             "Attacks": "Smash: 1d8+5 damage.\r\n\r\nFrightening Stance: Causes Scared."
         },
         {
+            "Name": "Clay Pidgeon",
+            "Description": "A pidgeon made of clay.",
+            "HP": "8",
+            "Armor": "2",
+            "Immunity": "Earth, Air",
+            "Locations": "Sky, Plains",
+            "Weakness": "Water",
+            "Type": "Animal",
+            "Attacks": "Birdstrike: 1d6 damage.  Causes Scared."
+        },
+        {
             "Name": "Crystal Ninja",
             "Description": "A crystalline person with martial arts skills",
             "HP": "8",
@@ -435,6 +468,28 @@
             "Weakness": "Holy",
             "Type": "Animal",
             "Attacks": "Bite: 1d10 damage"
+        },
+        {
+            "Name": "Desert Rhino",
+            "Description": "A yellow rhino that inhabits the desert",
+            "HP": "16",
+            "Armor": "2",
+            "Immunity": "Earth",
+            "Locations": "Desert",
+            "Weakness": "Air",
+            "Type": "Animal",
+            "Attacks": "Trample: 1d8+1 damage to all enemies.\r\n\r\nGlare: 1d6+1 dark damage."
+        },
+        {
+            "Name": "Devil Snake",
+            "Description": "A giant snake with a pair of horns",
+            "HP": "21",
+            "Armor": "1",
+            "Immunity": "Water, Dark",
+            "Locations": "Underwater, Swamp",
+            "Weakness": "Holy",
+            "Type": "Reptilian",
+            "Attacks": "Snakebite: 1d4 Piercing damage.  Causes Poison."
         },
         {
             "Name": "Dryad",
@@ -525,6 +580,17 @@
             "Attacks": "Burn: 1d6 Fire damage.\r\n\r\nSting: 1d10-3 damage.  Causes Paralysis."
         },
         {
+            "Name": "Flameknight",
+            "Description": "A person in an armor that's on fire",
+            "HP": "4",
+            "Armor": "4",
+            "Immunity": "Fire",
+            "Locations": "City, Plains, Forest",
+            "Weakness": "Ice, Water",
+            "Type": "Human",
+            "Attacks": "Fire Punch: 1d8 Fire damage."
+        },
+        {
             "Name": "Flying Drone",
             "Description": "A robot in the air that can shoot an enemy",
             "HP": "10",
@@ -545,6 +611,28 @@
             "Weakness": "Lightning",
             "Type": "Reptilian",
             "Attacks": "Stab: 1d10 damage."
+        },
+        {
+            "Name": "Frost Ghoul",
+            "Description": "An undead creature that travels in snow",
+            "HP": "10",
+            "Armor": "3",
+            "Immunity": "Earth, Ice",
+            "Locations": "Tundra, Mountain",
+            "Weakness": "Holy",
+            "Type": "Undead",
+            "Attacks": "Manic Punch: 1d4+1 damage.  Causes Mania."
+        },
+        {
+            "Name": "Frostflies",
+            "Description": "A swarm of white flyings bug found in cold areas",
+            "HP": "17",
+            "Armor": "3",
+            "Immunity": "Air",
+            "Locations": "Tundra",
+            "Weakness": "Fire",
+            "Type": "Insect, Mob",
+            "Attacks": "Ghastly Swarm: 1d8+1 damage.  Causes scared.\r\n\r\nFrost Bite: 1d4 Ice damage."
         },
         {
             "Name": "Ghost",
@@ -610,6 +698,17 @@
             "Weakness": "Fire",
             "Type": "Human",
             "Attacks": "Attack: 1d6+1 damage.\r\n\r\nIce Blast: 1d6-1 Ice damage."
+        },
+        {
+            "Name": "Ice Phantom",
+            "Description": "A ghastly apparition made of pure ice",
+            "HP": "10",
+            "Armor": "3",
+            "Immunity": "Holy, Ice",
+            "Locations": "Tundra",
+            "Weakness": "Fire",
+            "Type": "Undead",
+            "Attacks": "Frost Breath: 1d4 Ice damage."
         },
         {
             "Name": "Ice Zombie",
@@ -744,6 +843,17 @@
             "Attacks": "Scratch: 1d4+3 damage\r\n\r\nBite: 1d4 damage.  Causes Poison.\r\n\r\nSpore Cloud: Cause Poison on all enemies"
         },
         {
+            "Name": "Pirate's Ghost",
+            "Description": "A ghastly apparition that looks like a pirate and wields a poisonous blade",
+            "HP": "16",
+            "Armor": "0",
+            "Immunity": "Fire, Water",
+            "Locations": "Underwater, Shore",
+            "Weakness": "Earth",
+            "Type": "Undead",
+            "Attacks": "Poison Strike: 1d10-1 damage.  Causes poison."
+        },
+        {
             "Name": "Psycho Borealis",
             "Description": "An ethereal creature made of an array of lights",
             "HP": "9",
@@ -753,6 +863,17 @@
             "Weakness": "Dark",
             "Type": "Monster",
             "Attacks": "Manic Attack: 1d6-1 Holy damage.  Causes Mania.\r\n\r\nFright Attack: 1d6-1 Holy damage.  Causes Scared."
+        },
+        {
+            "Name": "Pyro",
+            "Description": "A tribal magic user that manipulates fire.",
+            "HP": "16",
+            "Armor": "3",
+            "Immunity": "Fire",
+            "Locations": "Desert, Forest, Mountain",
+            "Weakness": "Holy",
+            "Type": "Human",
+            "Attacks": "Fireball: 1d8 fire damage.  Causes Burn."
         },
         {
             "Name": "Ring of Fire",
@@ -799,6 +920,17 @@
             "Attacks": "Holy Strike: 1d6 Holy damage\r\n\r\nBlinding Light: 1d10 -2 Holy damage.  Causes Blind"
         },
         {
+            "Name": "Sand Shredder",
+            "Description": "A robot that guards the sands with its sawblades.",
+            "HP": "14",
+            "Armor": "1",
+            "Immunity": "Lightning",
+            "Locations": "Shore, Desert",
+            "Weakness": "Earth",
+            "Type": "Robotic",
+            "Attacks": "Sawblades: 1d8+1 damage.  Causes Bleed."
+        },
+        {
             "Name": "Sandblade",
             "Description": "A desert-dweller that's good with a knife",
             "HP": "11",
@@ -808,6 +940,17 @@
             "Weakness": "Water",
             "Type": "Human",
             "Attacks": "Cut: 1d4 damage.  Causes Bleed."
+        },
+        {
+            "Name": "Sandbot",
+            "Description": "A multi-legged robot that walks on sand.",
+            "HP": "17",
+            "Armor": "5",
+            "Immunity": "Lightning",
+            "Locations": "Shore, Desert",
+            "Weakness": "None",
+            "Type": "Robotic",
+            "Attacks": "Shadowbeam: 1d6+1 dark damage."
         },
         {
             "Name": "Sawbot",
@@ -986,6 +1129,17 @@
             "Attacks": "Bite: 1d12+2 damage\r\n\r\n"
         },
         {
+            "Name": "Wakebot",
+            "Description": "A small robot that rides the coastline.",
+            "HP": "6",
+            "Armor": "1",
+            "Immunity": "Lightning",
+            "Locations": "Shore",
+            "Weakness": "Dark",
+            "Type": "Robotic",
+            "Attacks": "Lightning Strike: 1d8 Lightning damage.  Causes Paralysis."
+        },
+        {
             "Name": "Walking Shark",
             "Description": "A shark on two legs",
             "HP": "9",
@@ -1008,127 +1162,6 @@
             "Attacks": "Bubble Attack: 1d10 Water damage\r\n\r\nBone Attack: 1d12 Dark damage."
         },
         {
-            "Name": "Yellow Dragon",
-            "Description": "A dragon with yellow scales",
-            "HP": "19",
-            "Armor": "4",
-            "Immunity": "Air",
-            "Locations": "Sky, Mountain",
-            "Weakness": "Earth",
-            "Type": "Animal, Reptilian",
-            "Attacks": "Wind Blast: 1d10 Air damage\r\n\r\nScratch: 1d8 - 1 Piercing damage"
-        },
-        {
-            "Name": "Wakebot",
-            "Description": "A small robot that rides the coastline.",
-            "HP": "6",
-            "Armor": "1",
-            "Immunity": "Lightning",
-            "Locations": "Shore",
-            "Weakness": "Dark",
-            "Type": "Robotic",
-            "Attacks": "Lightning Strike: 1d8 Lightning damage.  Causes Paralysis."
-        },
-        {
-            "Name": "Ice Phantom",
-            "Description": "A ghastly apparition made of pure ice",
-            "HP": "10",
-            "Armor": "3",
-            "Immunity": "Holy, Ice",
-            "Locations": "Tundra",
-            "Weakness": "Fire",
-            "Type": "Undead",
-            "Attacks": "Frost Breath: 1d4 Ice damage."
-        },
-        {
-            "Name": "Pirate's Ghost",
-            "Description": "A ghastly apparition that looks like a pirate and wields a poisonous blade",
-            "HP": "16",
-            "Armor": "0",
-            "Immunity": "Fire, Water",
-            "Locations": "Underwater, Shore",
-            "Weakness": "Earth",
-            "Type": "Undead",
-            "Attacks": "Poison Strike: 1d10-1 damage.  Causes poison."
-        },
-        {
-            "Name": "Frostflies",
-            "Description": "A swarm of white flyings bug found in cold areas",
-            "HP": "17",
-            "Armor": "3",
-            "Immunity": "Air",
-            "Locations": "Tundra",
-            "Weakness": "Fire",
-            "Type": "Insect, Mob",
-            "Attacks": "Ghastly Swarm: 1d8+1 damage.  Causes scared.\r\n\r\nFrost Bite: 1d4 Ice damage."
-        },
-        {
-            "Name": "Pyro",
-            "Description": "A tribal magic user that manipulates fire.",
-            "HP": "16",
-            "Armor": "3",
-            "Immunity": "Fire",
-            "Locations": "Desert, Forest, Mountain",
-            "Weakness": "Holy",
-            "Type": "Human",
-            "Attacks": "Fireball: 1d8 fire damage.  Causes Burn."
-        },
-        {
-            "Name": "Devil Snake",
-            "Description": "A giant snake with a pair of horns",
-            "HP": "21",
-            "Armor": "1",
-            "Immunity": "Water, Dark",
-            "Locations": "Underwater, Swamp",
-            "Weakness": "Holy",
-            "Type": "Reptilian",
-            "Attacks": "Snakebite: 1d4 Piercing damage.  Causes Poison."
-        },
-        {
-            "Name": "Desert Rhino",
-            "Description": "A yellow rhino that inhabits the desert",
-            "HP": "16",
-            "Armor": "2",
-            "Immunity": "Earth",
-            "Locations": "Desert",
-            "Weakness": "Air",
-            "Type": "Animal",
-            "Attacks": "Trample: 1d8+1 damage to all enemies.\r\n\r\nGlare: 1d6+1 dark damage."
-        },
-        {
-            "Name": "Sandbot",
-            "Description": "A multi-legged robot that walks on sand.",
-            "HP": "17",
-            "Armor": "5",
-            "Immunity": "Lightning",
-            "Locations": "Shore, Desert",
-            "Weakness": "None",
-            "Type": "Robotic",
-            "Attacks": "Shadowbeam: 1d6+1 dark damage."
-        },
-        {
-            "Name": "Aquabug",
-            "Description": "An insect that lives underwater",
-            "HP": "15",
-            "Armor": "3",
-            "Immunity": "Air, Water",
-            "Locations": "Underwater",
-            "Weakness": "Dark",
-            "Type": "Insect",
-            "Attacks": "Sting: 1d8+1 damage.  Causes Poison."
-        },
-        {
-            "Name": "Flameknight",
-            "Description": "A person in an armor that's on fire",
-            "HP": "4",
-            "Armor": "4",
-            "Immunity": "Fire",
-            "Locations": "City, Plains, Forest",
-            "Weakness": "Ice, Water",
-            "Type": "Human",
-            "Attacks": "Fire Punch: 1d8 Fire damage."
-        },
-        {
             "Name": "White Asp",
             "Description": "A snake that lives in the snow",
             "HP": "7",
@@ -1140,37 +1173,37 @@
             "Attacks": "Frost Bite: 1d4 Ice damage.  Causes Scared."
         },
         {
-            "Name": "Clay Pidgeon",
-            "Description": "A pidgeon made of clay.",
-            "HP": "8",
-            "Armor": "2",
-            "Immunity": "Earth, Air",
-            "Locations": "Sky, Plains",
-            "Weakness": "Water",
-            "Type": "Animal",
-            "Attacks": "Birdstrike: 1d6 damage.  Causes Scared."
-        },
-        {
-            "Name": "Sand Shredder",
-            "Description": "A robot that guards the sands with its sawblades.",
-            "HP": "14",
-            "Armor": "1",
-            "Immunity": "Lightning",
-            "Locations": "Shore, Desert",
+            "Name": "Yellow Dragon",
+            "Description": "A dragon with yellow scales",
+            "HP": "19",
+            "Armor": "4",
+            "Immunity": "Air",
+            "Locations": "Sky, Mountain",
             "Weakness": "Earth",
-            "Type": "Robotic",
-            "Attacks": "Sawblades: 1d8+1 damage.  Causes Bleed."
+            "Type": "Animal, Reptilian",
+            "Attacks": "Wind Blast: 1d10 Air damage\r\n\r\nScratch: 1d8 - 1 Piercing damage"
         },
         {
-            "Name": "Armored Jellyfish",
-            "Description": "A jellyfish with hard armor",
-            "HP": "14",
-            "Armor": "7",
-            "Immunity": "Holy",
-            "Locations": "Underwater",
-            "Weakness": "Air",
-            "Type": "Animal",
-            "Attacks": "Sting: 1d4 damage.  Causes Burn."
+            "Name": "Paralyzer",
+            "Description": "A human imbued in darkness that paralyzes their enemies.",
+            "HP": "10",
+            "Armor": "0",
+            "Immunity": "Dark",
+            "Locations": "City",
+            "Weakness": "Ice",
+            "Type": "Human",
+            "Attacks": "Paralyze Punch: 1d12+2 damage.  Causes Paralysis"
+        },
+        {
+            "Name": "Snow Drake",
+            "Description": "A white dragon that lives in the snowy parts of the world.",
+            "HP": "19",
+            "Armor": "0",
+            "Immunity": "Dark, Ice",
+            "Locations": "Tundra",
+            "Weakness": "Fire",
+            "Type": "Reptilian",
+            "Attacks": "Frost Beam: 1d12 Ice damage.  Causes Paralysis."
         }
     ],
     "Sample_Custom_Moves": [
@@ -1246,7 +1279,7 @@
     "Enemy Data": [
         {
             "Elementals": "Earth",
-            "Immunity": "9",
+            "Immunity": "10",
             "Weaknesses": "9",
             "Status Effects": "Bleed",
             "undefined": "3",
@@ -1263,7 +1296,7 @@
         {
             "Elementals": "Fire",
             "Immunity": "10",
-            "Weaknesses": "10",
+            "Weaknesses": "11",
             "Status Effects": "Burn",
             "undefined": "1",
             "Attack Element": "Air"
@@ -1286,8 +1319,8 @@
         },
         {
             "Elementals": "Ice",
-            "Immunity": "10",
-            "Weaknesses": "9",
+            "Immunity": "12",
+            "Weaknesses": "10",
             "Status Effects": "Poison",
             "undefined": "10",
             "Attack Element": "Lightning"
@@ -1295,17 +1328,17 @@
         {
             "Elementals": "Holy",
             "Immunity": "10",
-            "Weaknesses": "9",
+            "Weaknesses": "10",
             "Status Effects": "Scared",
-            "undefined": "10",
+            "undefined": "11",
             "Attack Element": "Ice"
         },
         {
             "Elementals": "Dark",
-            "Immunity": "9",
+            "Immunity": "11",
             "Weaknesses": "9",
             "Attack Element": "Holy",
-            "undefined": "Mania,Paralysis,Scared,"
+            "undefined": "Bleed,Blind,Burn,Mania,Scared,"
         },
         {
             "Attack Element": "Dark",
@@ -1325,11 +1358,11 @@
             "Elementals": "Sky",
             "Immunity": "13",
             "Status Effects": "Human",
-            "undefined": "10"
+            "undefined": "11"
         },
         {
             "Elementals": "Mountain",
-            "Immunity": "14",
+            "Immunity": "15",
             "Status Effects": "Monster",
             "undefined": "Next Enemy"
         },
@@ -1337,7 +1370,7 @@
             "Elementals": "Swamp",
             "Immunity": "14",
             "Status Effects": "Robotic",
-            "undefined": "9"
+            "undefined": "10"
         },
         {
             "Elementals": "Forest",
@@ -1349,19 +1382,19 @@
             "Elementals": "Underwater",
             "Immunity": "13",
             "Status Effects": "Insect",
-            "undefined": "7"
+            "undefined": "8"
         },
         {
             "Elementals": "Shore",
             "Immunity": "13",
             "Status Effects": "Mob",
-            "undefined": "12"
+            "undefined": "13"
         },
         {
             "Elementals": "Plains",
             "Immunity": "14",
             "Status Effects": "Undead",
-            "undefined": "9"
+            "undefined": "10"
         },
         {
             "Elementals": "Desert",
@@ -1370,11 +1403,11 @@
         },
         {
             "Elementals": "Tundra",
-            "Immunity": "12"
+            "Immunity": "14"
         },
         {
             "Elementals": "City",
-            "Immunity": "13"
+            "Immunity": "14"
         }
     ]
 }
