@@ -1204,6 +1204,17 @@
             "Weakness": "Fire",
             "Type": "Reptilian",
             "Attacks": "Frost Beam: 1d12 Ice damage.  Causes Paralysis."
+        },
+        {
+            "Name": "Sand Spirit",
+            "Description": "A spirit made of Sand.",
+            "HP": "10",
+            "Armor": "5",
+            "Immunity": "Earth",
+            "Locations": "Shore, Desert",
+            "Weakness": "Dark",
+            "Type": "Undead",
+            "Attacks": "Burning Sands: 1d6+1 Earth damage.  Causes Burn."
         }
     ],
     "Sample_Custom_Moves": [
@@ -1279,7 +1290,7 @@
     "Enemy Data": [
         {
             "Elementals": "Earth",
-            "Immunity": "10",
+            "Immunity": "11",
             "Weaknesses": "9",
             "Status Effects": "Bleed",
             "undefined": "3",
@@ -1290,7 +1301,7 @@
             "Immunity": "10",
             "Weaknesses": "10",
             "Status Effects": "Blind",
-            "undefined": "4",
+            "undefined": "5",
             "Attack Element": "Earth"
         },
         {
@@ -1336,9 +1347,9 @@
         {
             "Elementals": "Dark",
             "Immunity": "11",
-            "Weaknesses": "9",
+            "Weaknesses": "10",
             "Attack Element": "Holy",
-            "undefined": "Bleed,Blind,Burn,Mania,Scared,"
+            "undefined": "Bleed,Blind,Mania,Scared,"
         },
         {
             "Attack Element": "Dark",
@@ -1386,7 +1397,7 @@
         },
         {
             "Elementals": "Shore",
-            "Immunity": "13",
+            "Immunity": "14",
             "Status Effects": "Mob",
             "undefined": "13"
         },
@@ -1398,7 +1409,7 @@
         },
         {
             "Elementals": "Desert",
-            "Immunity": "14",
+            "Immunity": "15",
             "undefined": "1"
         },
         {
